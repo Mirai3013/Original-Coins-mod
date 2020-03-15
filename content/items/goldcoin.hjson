@@ -1,0 +1,4 @@
+    type:"material"
+    name:"gold coin"
+    description:"More rare than silver coins"
+    color:"ffd700"

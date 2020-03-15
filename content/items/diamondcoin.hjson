@@ -1,0 +1,4 @@
+    type:"material"
+    name:"diamond coin"
+    description:"Very precious coin.This coin is more rare than platinum coins."
+    color:"00ffff"
