@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: silicon purchaser
+description: 1 silicon = 1 silvercoin
+health: 300
+itemCapacity:100
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 6
+consumes: {
+  power: 0.0833
+  items: {
+    items: [
+      silicon/1
+    ]
+  }
+}
+requirements: [
+  copper/150
+  lead/150
+  graphite/150
+]
+category: crafting
+buildCostMultiplier:0.2
+research: graphitepurchaser
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: silvercoin/1

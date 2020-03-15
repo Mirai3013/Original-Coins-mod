@@ -1,0 +1,24 @@
+	type: Fracker
+	name: slag vender
+	description: 5 diamondcoin = 301 slag
+	health: 301
+	itemCapacity:10
+	hasPower: felse
+	hasItems: true
+	result: slag
+	consumes: {
+  items: {
+    items: [
+      diamondcoin/5
+    ]
+  }
+}
+	size: 2
+	pumpAmount: 5.016666667
+	requirements: [
+	goldcoin/20
+]
+	category: production
+	research: oilvender
+	liquidCapacity: 3013
+	

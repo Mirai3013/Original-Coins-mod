@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: copper vender
+description: 1 silver coin = 11 copper
+health: 300
+itemCapacity:11
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 6
+consumes: {
+  power: 0.0833
+  items: {
+    items: [
+      silvercoin/1
+    ]
+  }
+}
+requirements: [
+  copper/100
+]
+category: crafting
+buildCostMultiplier:0.2
+research: copperpurchaser
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: copper/11

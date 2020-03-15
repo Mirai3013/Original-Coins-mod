@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: titanium purchaser
+description: 1 titanium = 2 silvercoin
+health: 5
+itemCapacity:100
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 6
+consumes: {
+  power: 0.833
+  items: {
+    items: [
+      titanium/1
+    ]
+  }
+}
+requirements: [
+  copper/150
+  lead/150
+  graphite/150
+]
+category: crafting
+buildCostMultiplier:0.2
+research: graphitepurchaser
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: silvercoin/2

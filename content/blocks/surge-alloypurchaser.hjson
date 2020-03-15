@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: surge alloy purchaser
+description: 10 surge alloy = 1 goldcoin
+health: 5
+itemCapacity:100
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 30
+consumes: {
+  power: 1
+  items: {
+    items: [
+      surge-alloy/10
+    ]
+  }
+}
+requirements: [
+  copper/300
+  lead/300
+  graphite/300
+  titanium/300
+]
+category: crafting
+buildCostMultiplier:0.5
+research: thoriumpurchaser
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: goldcoin/1

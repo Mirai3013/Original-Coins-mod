@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: S/G exchanger
+description: Exchange silver coins for gold coins.
+health: 10
+itemCapacity:100
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 6
+consumes: {
+  items: {
+    items: [
+      silvercoin/10
+    ]
+  }
+}
+requirements: [
+  copper/200
+  lead/150
+  graphite/100
+  coppercoin/10
+]
+category: crafting
+research: CS-Exchanger
+buildCostMultiplier:0.2
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: goldcoin/1

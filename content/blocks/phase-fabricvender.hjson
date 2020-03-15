@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: phase fabric vender
+description: 1 platinum coin = 30 phase fabric
+health: 300
+itemCapacity:30
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 6
+consumes: {
+  power: 0.0833
+  items: {
+    items: [
+      platinumcoin/1
+    ]
+  }
+}
+requirements: [
+  copper/200
+  lead/200
+  graphite/200
+  titanium/200
+]
+category: crafting
+buildCostMultiplier:0.2
+research: thoriumvender
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: phase-fabric/30

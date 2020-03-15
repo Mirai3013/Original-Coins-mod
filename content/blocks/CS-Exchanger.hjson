@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: C/S Exchanger
+description: Exchange copper coins for silver coins.
+health: 10
+itemCapacity:100
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 6
+consumes: {
+  items: {
+    items: [
+      coppercoin/10
+    ]
+  }
+}
+requirements: [
+  copper/100
+  lead/100
+  graphite/100
+]
+category: crafting
+research: copperpurchaser
+buildCostMultiplier:0.2
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: silvercoin/1

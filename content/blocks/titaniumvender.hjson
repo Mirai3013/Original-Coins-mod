@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: titanium vender
+description: 1 gold coin = 6 titanium
+health: 300
+itemCapacity:6
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 6
+consumes: {
+  power: 0.0833
+  items: {
+    items: [
+      goldcoin/1
+    ]
+  }
+}
+requirements: [
+  copper/150
+  lead/150
+  graphite/150
+]
+category: crafting
+buildCostMultiplier:0.2
+research: graphitevender
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: titanium/6

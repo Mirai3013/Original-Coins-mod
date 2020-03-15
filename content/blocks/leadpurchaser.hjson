@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: lead purchaser
+description: 1 lead = 2 coppercoin
+health: 300
+itemCapacity:100
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 6
+consumes: {
+  power: 0.0833
+  items: {
+    items: [
+      lead/1
+    ]
+  }
+}
+requirements: [
+  copper/60
+  lead/60
+]
+category: crafting
+research: copperpurchaser
+buildCostMultiplier:0.2
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: coppercoin/2

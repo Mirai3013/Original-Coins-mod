@@ -1,0 +1,13 @@
+name: Legendaly Vault
+description: 250million capacity
+type: Vault
+itemCapacity: 250000000
+hasItems: true
+health: 10000
+consumesPower:false
+size: 3
+requirements: [
+ legendarycoin/10
+]
+category: effect
+research:  vault

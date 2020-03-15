@@ -1,0 +1,24 @@
+	type: Fracker
+	name: oil vender
+	description: 5 platinumcoin = 301 oil
+	health: 301
+	itemCapacity:10
+	hasPower: felse
+	hasItems: true
+	result: oil
+	consumes: {
+  items: {
+    items: [
+      platinumcoin/5
+    ]
+  }
+}
+	size: 2
+	pumpAmount: 5.016666667
+	requirements: [
+	goldcoin/20
+]
+	category: production
+	research: GP-Exchanger
+	liquidCapacity: 3013
+	

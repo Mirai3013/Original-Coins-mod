@@ -1,0 +1,15 @@
+name: Legendary pad
+description: Very faster launch.
+type: LaunchPad
+itemCapacity: 1000
+hasItems: true
+health: 10000
+consumesPower:false
+size: 4
+powerUse: 10
+launchTime: 60
+requirements: [
+ legendarycoin/5
+]
+category: effect
+research: launch-pad-large

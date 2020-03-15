@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: scrap recycler
+description: 10 scrap = 1 coppercoin
+health: 5
+itemCapacity:100
+size: 1
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 6
+consumes: {
+  power: 0.833
+  items: {
+    items: [
+      scrap/10
+    ]
+  }
+}
+requirements: [
+  copper/10
+  lead/10
+]
+category: crafting
+buildCostMultiplier:0.2
+research: copperpurchaser
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: coppercoin/1

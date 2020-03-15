@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: surge alloy vender
+description: 1 platinum coin = 21 surge alloy
+health: 300
+itemCapacity:21
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 10
+consumes: {
+  power: 0.0833
+  items: {
+    items: [
+      platinumcoin/1
+    ]
+  }
+}
+requirements: [
+  copper/300
+  lead/300
+  graphite/300
+  titanium/300
+]
+category: crafting
+buildCostMultiplier:0.2
+research: thoriumvender
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: surge-alloy/21

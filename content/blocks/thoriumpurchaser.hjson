@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: thorium purchaser
+description: 1 thorium = 5 silvercoin
+health: 5
+itemCapacity:100
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 6
+consumes: {
+  power: 0.833
+  items: {
+    items: [
+      thorium/1
+    ]
+  }
+}
+requirements: [
+  copper/200
+  lead/200
+  graphite/200
+  titanium/200
+]
+category: crafting
+buildCostMultiplier:0.2
+research: titaniumpurchaser
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: silvercoin/5

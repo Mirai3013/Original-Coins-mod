@@ -1,0 +1,74 @@
+type: ItemTurret
+name: Coin RailGun
+description: Very long range turret.
+health: 301300
+size: 2
+reload: 1
+range: 8000
+ammoUseEffect: shellEjectSmall
+inaccuracy: 0
+rotatespeed: 600
+shots: 1
+recoil:0.01
+restitution:0.001
+itemCapacity: 3013
+ammo: {
+  copper: {
+    type: MissileBulletType
+    speed: 50
+    damage: 5
+    ammoPerShot:0.1
+  }
+  
+  coppercoin: {
+    type: MissileBulletType
+    speed: 50
+    damage: 50
+    ammoPerShot:0.2
+  }
+  
+  silvercoin: {
+    type: MissileBulletType
+    speed: 100
+    damage: 75
+    splashDamage:50
+    splashDamageRadius:240
+  }
+  goldcoin: {
+    type: MissileBulletType
+    speed: 50
+    damage: 100
+    ammoPerShot:0.25
+    splashDamage:75
+    splashDamageRadius:320
+  }
+  platinumcoin: {
+    type: MissileBulletType
+    speed: 100
+    damage: 120
+    ammoPerShot:0.2
+    splashDamage:100
+    splashDamageRadius:400
+  }
+  diamondcoin: {
+    type: MissileBulletType
+    speed: 120
+    damage: 200
+    splashDamage:200
+    splashDamageRadius:800
+  }
+  legendarycoin: {
+    type: MissileBulletType
+    speed: 200
+    damage: 3013
+    ammoPerShot:0.1
+    splashDamage:2147483646
+    splashDamageRadius:3013000
+  }
+}
+requirements: [
+  coppercoin/50
+  silvercoin/100
+]
+category: turret
+research: duo

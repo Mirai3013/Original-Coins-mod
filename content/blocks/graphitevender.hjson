@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: graphite vender
+description: 1 silver coin = 3 graphite
+health: 300
+itemCapacity:3
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 6
+consumes: {
+  power: 0.0833
+  items: {
+    items: [
+      silvercoin/1
+    ]
+  }
+}
+requirements: [
+  copper/60
+  lead/60
+]
+category: crafting
+buildCostMultiplier:0.2
+research: leadvender
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: graphite/3

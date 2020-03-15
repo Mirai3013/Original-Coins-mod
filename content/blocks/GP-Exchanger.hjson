@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: G/P Exchanger
+description: Exchange gold coins for platinum coins.
+health: 10
+itemCapacity:2000
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 30
+consumes: {
+  items: {
+    items: [
+      goldcoin/20
+    ]
+  }
+}
+requirements: [
+  copper/300
+  lead/200
+  graphite/200
+  titanium/100
+  coppercoin/100
+  silvercoin/10
+]
+category: crafting
+research: SG-Exchanger
+buildCostMultiplier:0.2
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: platinumcoin/1

@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: P/D Exchanger
+description: Exchange platinum coins for diamond coins.
+health: 10
+itemCapacity:100
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 60
+consumes: {
+  items: {
+    items: [
+      platinumcoin/10
+    ]
+  }
+}
+requirements: [
+  coppercoin/1000
+  silvercoin/500
+  goldcoin/250
+]
+category: crafting
+research: GP-Exchanger
+buildCostMultiplier:2
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: diamondcoin/1

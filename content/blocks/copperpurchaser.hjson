@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: copper purchaser
+description: 1 cooper = 1 coppercoin
+health: 300
+itemCapacity:100
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 6
+consumes: {
+  power: 0.0833
+  items: {
+    items: [
+      copper/1
+    ]
+  }
+}
+requirements: [
+  copper/100
+]
+category: crafting
+buildCostMultiplier:0.2
+research: duo
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: coppercoin/1

@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: thorium vender
+description: 1 gold coin = 3 metaglass
+health: 300
+itemCapacity:3
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 6
+consumes: {
+  power: 0.0833
+  items: {
+    items: [
+      goldcoin/1
+    ]
+  }
+}
+requirements: [
+  copper/200
+  lead/200
+  graphite/200
+  titanium/200
+]
+category: crafting
+buildCostMultiplier:0.2
+research: titaniumvender
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: thorium/3

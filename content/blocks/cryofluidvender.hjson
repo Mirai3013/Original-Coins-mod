@@ -1,0 +1,24 @@
+	type: Fracker
+	name: cryofluid vender
+	description: 5 goldcoin = 301 oil
+	health: 301
+	itemCapacity:10
+	hasPower: felse
+	hasItems: true
+	result: cryofluid
+	consumes: {
+  items: {
+    items: [
+      goldcoin/5
+    ]
+  }
+}
+	size: 2
+	pumpAmount: 5.016666667
+	requirements: [
+	goldcoin/2
+]
+	category: production
+	research: oilvender
+	liquidCapacity: 3013
+	
